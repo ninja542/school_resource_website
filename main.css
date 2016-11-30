@@ -1,3 +1,61 @@
+h1 {
+	font-family: "Merriweather", Georgia, serif;
+	font-weight: 300;
+	font-size: 36px;
+	font-style: italic;
+	text-align: center;
+}
 p {
-  font-family: "Lato";
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 18px;
+}
+.center {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 60%;
+	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 48px;
+	padding: 36px; 
+	padding-top: 24px;
+	border-radius: 5px;
+}
+.nav {
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 1em;
+	background-color: rgba(0, 0, 0, .26);
+}
+.nav a {  
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 300;
+}
+.nav div {
+	width: 120px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 8px;
+	align-items: center;
+	display: flex;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	white-space: nowrap;
+	justify-content: center;
+}
+.forest {
+	background-attachment: fixed;
+	background-image: url("images/forest.jpg");
+	background-size: cover;
+	margin: 0;
+}
+.city {	
+	background-attachment: fixed;
+	background-image: url("images/city.jpe");
+	background-size: cover;
+	margin: 0;  
 }
