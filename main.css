@@ -59,3 +59,26 @@ p {
 	background-size: cover;
 	margin: 0;  
 }
+.landing {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: flex-start;
+	justify-content: center;
+}
+.landing > div {
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.col1 {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.col2 {
+
+}
+.col3 {
+	background-color: rgba(0, 0, 0, 0.3);
+}
